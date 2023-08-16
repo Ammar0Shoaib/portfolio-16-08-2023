@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font-color: #747779;
+  --font-size: 1.5em;
+}
+
+.Cardc-container {
+  display: flex;
+  max-width: 100%;
+  height: 565px;
+  flex-direction: column;
+  box-shadow: 1px 1px 0px 0 #EEEEEE;
+}
+
+.Cardc-container-wml {
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 2.3em;
+  margin-left: 2.2em;
+}
+
+.Cardc-container_line {
+  display: block;
+  width: 70px;
+  height: 3.5px;
+  background-color: #F85C70;
+  margin-left: 4.5em;
+}
+
+.cardc-grid_container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.cardc-image-column-img1,
+.cardc-image-column-img2,
+.cardc-image-column-img3 {
+  width: 2em;
+  height: 2em;
+  margin-top: 4em;
+  margin-left: 1.5em;
+}
+
+.cardc-text-column {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.cardc-text-column-text1-para,
+.cardc-text-column-text2-para,
+.cardc-text-column-text3-para
+ {
+  margin-left: 3em;
+  --font-size: 1.5em;
+  color: var(--primary-font-color);
+
+  font-size: var(--primary-font-color);
+}
+
+
+.cardc-text-column-text1-para{
+  margin-top: 2.5em;
+  font-weight: 500;
+}
+
+.cardc-text-column-text2-para{
+  margin-top: 3em;
+  font-weight: 500;
+
+}
+
+.cardc-text-column-text3-para{
+  margin-top: 3em;
+  font-weight: 500;
+
+}
+
+.heading-weight{
+  font-weight: 700;
+}
+

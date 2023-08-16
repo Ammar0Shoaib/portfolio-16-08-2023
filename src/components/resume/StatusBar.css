@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.status-bar {
+    width: 80%;
+    height: 1.5px;
+    margin-top: 1em;
+    margin-left: 5em;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .status-bar-fill {
+    height: 100%;
+    background-color: #F85C70;  
+    transition: width 0.3s ease-in-out;
+  }
+  

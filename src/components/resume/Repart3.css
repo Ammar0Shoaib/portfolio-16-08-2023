@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* main heading */
+    --main-heading-font-size: 1.2em;
+
+    /* heading  */
+    --heading-font-size: 1.2em;
+    --heading-font-color: #F85C70;
+
+    /* para styling  */
+    --para-font-color: #747779;
+    --para-font-size: 0.2em;
+
+    /* Span styling */
+    --main-heading-span-margin-left: 4.2em;
+    --span-back-color: #F85C70;
+
+
+    /* Section Styling */
+    --section-heading-font-size: 1em;
+    --section-heading-font-color: #F85C70;
+    --section-ending-span-line-color: #bab1b2;
+
+
+    /* border styling */
+    --box-border-color: #DFDFDF;
+
+
+}
+
+.repart3_main-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 2.2em;
+
+}
+
+.repart3_main-sub-container {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.repart3_main-container-mainheading {
+    position: relative;
+    font-size: 1.8em;
+    font-weight: 300;
+    color: black;
+    margin-left: 6.3em;
+    margin-bottom: 1.2em;
+}
+
+
+
+.repart3_main-container-span-element {
+    display: block;
+    width: 450px;
+    height: 1px;
+    background-color: #bab1b2;
+}
+
+
+
+.skill_set-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.status_container-heading-statusbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2.6em;
+}
+
+.status_container-heading {
+
+    display: flex;
+}
+
+.status_container-statusbar {
+    display: flex;
+}
+
+.statusBar-heaading {
+    color: var(--heading-font-color);
+}

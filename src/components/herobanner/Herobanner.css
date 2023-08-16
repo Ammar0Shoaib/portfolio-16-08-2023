@@ -102,7 +102,11 @@ body {
 
 .button-text {
   font-size: 1.5em;
+<<<<<<< HEAD
 }git 
+=======
+}
+>>>>>>> feature_01
 
 .button-with-image:hover {
   background-color: #F85C70;
