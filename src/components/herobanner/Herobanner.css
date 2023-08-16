@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: radial-gradient(circle at 7% 19%, rgba(155, 164, 167, 0.38) 0%, rgba(247, 147, 160, 1) 50%, rgba(248, 92, 112, 1) 100%);
+  max-width: 100%;
+  height: 550px;
+}
+
+.social-images {
+  display: flex;
+  width: 100%;
+  gap: 2em;
+  padding-left: 5em;
+  padding-top: 2.5em;
+}
+
+.facebook {
+  display: flex;
+  height: 2.5em;
+}
+
+
+.google {
+  display: flex;
+  height: 2.5em;
+}
+
+
+.instagram {
+  display: flex;
+  height: 2.5em;
+}
+
+.icon-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+}
+
+.twitter {
+  display: flex;
+  height: 2.5em;
+}
+
+
+
+.github {
+  display: flex;
+  height: 2.5em;
+}
+
+
+
+.intro-hero-para {
+  color: white;
+  font-size: 2.2em;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+.intro-hero-h2 {
+  color: white;
+  font-size: 3em;
+  margin-left: 3.5em;
+}
+
+.intro-hero-h3 {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 7em;
+  font-weight: 100;
+}
+
+.btncontainer {
+  display: flex;
+  margin-top: 5em;
+  padding-left: 10em;
+}
+
+.button-with-image {
+  background-color: #E6BCC2;
+  color: #fff;
+  border: 1PX SOLID;
+  padding: 1em 1em;
+  border-radius: 0.5em;
+  border-color: rgb(60, 60, 60);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btncontainer-img {
+  width: 2em;
+  height: 2em;
+  margin-right: 1.1em;
+}
+
+.button-text {
+  font-size: 1.5em;
+}
+
+.button-with-image:hover {
+  background-color: #F85C70;
+  border: none;
+}
